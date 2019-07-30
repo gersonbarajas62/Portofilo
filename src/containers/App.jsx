@@ -2,8 +2,7 @@ import React from 'react';
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 import Info from '../components/Info';
-import About from '../components/About'
-import About from '../components/About'; 
+import About from '../components/About' 
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificate from '../components/Certificate';
@@ -13,16 +12,13 @@ const App = () => {
     return (
         <Main>
             <Sidebar>
-
-            <About />
-            
+                <About />
             </Sidebar>
             <Info>
-            <Education />
-            <Experience />
-            <Certificate />
-            <Skills />
-
+                <Education />
+                <Experience />
+                <Certificate />
+                <Skills />
             </Info>
 
         </Main>

@@ -7,7 +7,7 @@ const About = () => (
                 <figure>
                     <img src="" alt="" />
                 </figure>
-            </div>
+            </div> 
             <div className="About-name">
                 <h2>Gerson Roa</h2>
             </div>
